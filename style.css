@@ -19,3 +19,6 @@ section {
   min-width: 100%;
   width: 100%;
 }
+.fixed-height {
+  max-height: 400px;
+}
