@@ -22,3 +22,11 @@ section {
 .fixed-height {
   max-height: 400px;
 }
+
+.carousel {
+  margin-bottom: 60px;
+}
+
+.carousel .item {
+  min-width: 100%;
+}
