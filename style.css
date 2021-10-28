@@ -15,12 +15,7 @@ section {
   padding-top: 5rem;
 }
 
-.carousel {
-  justify-content: center;
-  width: 640px;
-  height: 360px;
-}
-
-.carousel-inner .item a img {
-  margin: auto;
+.carousel-inner > .item > img {
+  min-width: 100%;
+  width: 100%;
 }
