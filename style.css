@@ -1,0 +1,26 @@
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #ffffb7;
+}
+
+#resume {
+  background-color: #fcfbce;
+}
+
+#contact {
+  background-color: #fcfbce;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.carousel {
+  justify-content: center;
+  width: 640px;
+  height: 360px;
+}
+
+.carousel-inner .item a img {
+  margin: auto;
+}
