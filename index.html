@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -35,13 +36,15 @@
             <li class="nav-item">
               <a class="nav-link" href="#resume">Resume</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#registration">Registration</a>
+              </li>
           </ul>
         </div>
       </div>
@@ -113,7 +116,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#fcfbce"
+          fill="#ffffb7"
           fill-opacity="1"
           d="M0,128L40,133.3C80,139,160,149,240,138.7C320,128,400,96,480,69.3C560,43,640,21,720,53.3C800,85,880,171,960,176C1040,181,1120,107,1200,96C1280,85,1360,139,1400,165.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
         ></path>
@@ -255,7 +258,7 @@
           </div>
 
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fcfbce" fill-opacity="1" d="M0,160L24,170.7C48,181,96,203,144,208C192,213,240,203,288,197.3C336,192,384,192,432,165.3C480,139,528,85,576,106.7C624,128,672,224,720,261.3C768,299,816,277,864,234.7C912,192,960,128,1008,133.3C1056,139,1104,213,1152,213.3C1200,213,1248,139,1296,128C1344,117,1392,171,1416,197.3L1440,224L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffb7"  fill-opacity="1" d="M0,160L24,170.7C48,181,96,203,144,208C192,213,240,203,288,197.3C336,192,384,192,432,165.3C480,139,528,85,576,106.7C624,128,672,224,720,261.3C768,299,816,277,864,234.7C912,192,960,128,1008,133.3C1056,139,1104,213,1152,213.3C1200,213,1248,139,1296,128C1344,117,1392,171,1416,197.3L1440,224L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Projects -->
 
@@ -294,6 +297,63 @@
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,256L26.7,229.3C53.3,203,107,149,160,122.7C213.3,96,267,96,320,122.7C373.3,149,427,203,480,192C533.3,181,587,107,640,85.3C693.3,64,747,96,800,133.3C853.3,171,907,213,960,197.3C1013.3,181,1067,107,1120,106.7C1173.3,107,1227,181,1280,202.7C1333.3,224,1387,192,1413,176L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+      
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Register -->
+
+    <section id="registration">
+        <div class="container h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+              <div class="card" style="border-radius: 15px">
+                <div class="card-body p-5">
+                  <h2 class="text-center mb-5">Registration</h2>
+
+                  <form method="post"  name="formregistrasi" onsubmit="return cek()">
+                    <div class="form-outline mb-4">
+                      <input type="text" name="name" id="formname" class="form-control form-control-lg" />
+                      <label class="form-label" for="formname">Name</label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                      <input type="email" name="email" id="formemail" class="form-control form-control-lg" />
+                      <label class="form-label" for="formemail">Email</label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                      <input type="password" name="password" id="formpassword" class="form-control form-control-lg" />
+                      <label class="form-label" for="formpasswors">Password</label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                      <input type="password" name="repassword" id="formrepassword" class="form-control form-control-lg" />
+                      <label class="form-label" for="formrepassword">Retype Password</label>
+                    </div>
+
+                    <div class="form-check d-flex justify-content-center mb-5">
+                      <input class="form-check-input me-2" type="checkbox" value="" id="formterm" checked />
+                      <label class="form-check-label" for="formterm">
+                        I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                      </label>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                      <input type="submit" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" name="Register" value="Register"></input>
+                    </div>
+
+                    <p class="text-center text-muted mt-5 mb-0">
+                      Have already an account? <a href="#!" class="fw-bold text-body"><u>Login here</u></a>
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffee93"
@@ -302,15 +362,53 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir Contact -->
+
+   
+    <!-- Akhir Register -->
+    
 
     <!-- Footer -->
     <footer class="text-black text-center pb-5" style="background-color: #ffee93">
+        
       <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i></p>
       <p>&copy; <b>Maria Ulfa Chasanah</b>. All Right Reserved</p>
     </footer>
     <!-- Akhir Footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+      
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" language='javascript'>
+    function cek() {
+          if (document.formregistrasi.name.value == "") {
+            alert("Name Can Not be Blank");
+            document.formregistrasi.name.focus();
+            return false;
+          } else {
+            if (document.formregistrasi.email.value == "") {
+              alert("Email Can Not be Blank");
+              document.formregistrasi.email.focus();
+              return false;
+            } else {
+              if (document.formregistrasi.password.value == "") {
+                alert("Password Can Not be Blank");
+                document.formregistrasi.password.focus();
+                return false;
+              } else {
+                  if(document.formregistrasi.repassword.value != document.formregistrasi.password.value){
+                    alert("Your Password Did Not Match");
+                    document.formregistrasi.repassword.focus();
+                    return false;
+                  }
+                  return true;
+                }
+                return true;
+              }
+              return true;
+            }
+            return true;
+          }
+        
+    </script>
   </body>
 </html>
